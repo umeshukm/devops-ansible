@@ -7,8 +7,8 @@ resource "aws_instance" "myawsserver" {
   key_name = "umesh-import"
 
   tags = {
-    Name = "Umesh-DevOps-server"
-    env = "Prod"
+    Name = "Umesh-DevOps-server-Dev"
+    env = "Dev"
     owner = "Umesh"
   }
   provisioner "local-exec" {
